@@ -11,11 +11,11 @@ DEVELOPMENT | 28932
 
 ## Statistical information regarding training set (PubMed_200k_RCT/train.txt) ##
 ----------------
-RESULTS | 766271
-METHODS | 722586
-CONCLUSIONS | 339714
-BACKGROUND | 196689
-OBJECTIVE | 186601
+| RESULTS | 766271 |
+| METHODS | 722586 |
+| CONCLUSIONS | 339714 |
+| BACKGROUND | 196689 |
+| OBJECTIVE | 186601 |
 
 
 
