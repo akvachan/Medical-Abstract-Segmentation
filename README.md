@@ -50,7 +50,7 @@ Model that classifies each sentence as RESULTS has apporox. 35% accuracy. This m
 2. Multinomial Naïve Bayes Classifier:<br>
 Predicts class of the sentence depending on the distribution of words in each class and probability of the classes. No stopwords were removed, words were lowercased, tf-idf vectorization with unigram (class-word) frequency count was used. Evaluation yielded 76.5% accuracy and f1-score, precision and recall. Since dataset is balanced multi-class, it is possible for those metrics to be identical.
 
-3. Embedding with Conv1D
+3. Embedding with Conv1D:<br>
 pass
 
 ## Working Model ##
