@@ -59,7 +59,7 @@ First each sentence is tokenized and standardized to have length of 64 tokens. T
 | embedding (Embedding)|       (None, 64, 128)|           38400000|
 | conv1d (Conv1D)|             (None, 64, 32)|            24608|                         
 | global_average_pooling1d | (None, 32) |               0      |                                                  
-| dense (Dense)               (None, 64) |               2112 |                                                    
+| dense (Dense)|               (None, 64) |               2112 |                                                   
 | dense_1 (Dense)  |           (None, 5)  |               325 |        
 
 Total params: 38427045 (146.59 MB) <br>
