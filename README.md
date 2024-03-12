@@ -52,7 +52,30 @@ Model that classifies each sentence as RESULTS has apporox. 35% accuracy. This m
 Predicts class of the sentence depending on the distribution of words in each class and probability of the classes. No stopwords were removed, words were lowercased, tf-idf vectorization with unigram (class-word) frequency count was used. Evaluation yielded 76.5% accuracy and f1-score, precision and recall. Since dataset is balanced multi-class, it is possible for those metrics to be identical.
 
 3. Embedding with Conv1D:<br>
-pass
+First each sentence is tokenized and standardized to have length of 64 tokens. Then sentences in batches of 64 are passed to the Embedding layer that calculates embedding with dimensionality of 128 for each token. Those embedded sentences are then passed to a Text Covolutional layer that extracts common patterns and features, the outputs of Convolutional layer are then globally averaged. Last two layers is a DNN. Architecture:
+
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ embedding (Embedding)       (None, 64, 128)           38400000  
+                                                                 
+ conv1d (Conv1D)             (None, 64, 32)            24608     
+                                                                 
+ global_average_pooling1d (  (None, 32)                0         
+ GlobalAveragePooling1D)                                         
+                                                                 
+ dense (Dense)               (None, 64)                2112      
+                                                                 
+ dense_1 (Dense)             (None, 5)                 325       
+                                                                 
+=================================================================
+Total params: 38427045 (146.59 MB)
+Trainable params: 38427045 (146.59 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+
+
+Important notice: Since computation on my device took very long to train this base model, 
 
 ## Working Model ##
 
