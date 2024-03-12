@@ -3,7 +3,8 @@ Abstract Segmentation and Compression for Medical Texts
 
 ## Dataset ##
 Name: PubMed_200k_RCT (_/train.txt, _/test.txt, _/train.txt)
-Description: Dataset contains 200k abstracts from medical papers. Each abstract is split into sentences, each sentence is classified into 5 different categories (see below).
+Description: Dataset contains 200k abstracts from medical papers. Each abstract is split into sentences, each sentence is classified into 5 different categories (see below). Words are split by whitespaces and sentences are split by lines.
+
 Split:
 |             | # Sentences|
 |-------------|------------|
