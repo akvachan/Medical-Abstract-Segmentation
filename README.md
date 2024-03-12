@@ -27,7 +27,7 @@ As we can see most common label is RESULTS with 766271 appearances.
 |-------------|------------------------------------|
 | Words                                 | 58015688 |
 | Stopwords                             | 15986680 |
-| Unique words                          | 472016   |
+| Unique words (not lowercased)         | 472016   |
 | Sentences                             | 2211861  |
 | Min abstract length (sentences)       | 3        |
 | Max abstract length (sentences)       | 51       |
@@ -37,7 +37,7 @@ As we can see most common label is RESULTS with 766271 appearances.
 | Min sentence length (words)           | 1        |
 | Max sentence length (words)           | 338      |
 
-Smallest abstract has 3 sentences, biggest has 51. Average sentence length is between 26-27 words. Around 26.6% of total words are stopwords and around 0.8% are unique words. Smallest sentence contains just a single word, biggest sentence contains 338 words.
+Smallest abstract has 3 sentences, biggest has 51. Average sentence length is between 26-27 words. Around 26.6% of total words are stopwords and around 0.8% are unique words (not lowercased). Smallest sentence contains just a single word, biggest sentence contains 338 words.
 
 Full sentence length distribution can be found in sentence_length_distribution.txt.
 
