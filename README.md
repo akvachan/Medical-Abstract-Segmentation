@@ -37,6 +37,7 @@ As we can see most common label is RESULTS with 766271 appearances.
 | Skewness sentence length distribution | 1.971    |
 | Min sentence length (words)           | 1        |
 | Max sentence length (words)           | 338      |
+| 95% sentences are _ or longer (words) | 54       |
 
 Smallest abstract has 3 sentences, biggest has 51. Average sentence length is between 26-27 words. Around 26.6% of total words are stopwords and around 0.8% are unique words (not lowercased). Smallest sentence contains just a single word, biggest sentence contains 338 words.
 
