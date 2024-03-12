@@ -52,7 +52,7 @@ Model that classifies each sentence as RESULTS has apporox. 35% accuracy. This m
 Predicts class of the sentence depending on the distribution of words in each class and probability of the classes. No stopwords were removed, words were lowercased, tf-idf vectorization with unigram (class-word) frequency count was used. Evaluation yielded 76.5% accuracy and f1-score, precision and recall. Since dataset is balanced multi-class, it is possible for those metrics to be identical.
 
 3. Embedding with Conv1D:<br>
-First each sentence is tokenized and standardized to have length of 64 tokens. Then sentences in batches of 64 are passed to the Embedding layer that calculates embedding with dimensionality of 128 for each token. Those embedded sentences are then passed to a Text Covolutional layer that extracts common patterns and features, the outputs of Convolutional layer are then globally averaged. Last two layers is a DNN. Model is trained for 10 epochs. Architecture:
+First each sentence is tokenized and standardized to have length of 64 tokens. Then sentences in batches of 64 are passed to the Embedding layer that calculates embedding with dimensionality of 128 for each token. Those embedded sentences are then passed to a Text Covolutional layer that extracts common patterns and features, the outputs of Convolutional layer are then globally averaged. Last two layers is a DNN. Model is trained for 10 epochs. Final accuracy 85%, and final F1-score 80%. Architecture:
 
 |Layer (type) | Output Shape                          |Param # |
 |-------------|---------------------------------------|----------
