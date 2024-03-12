@@ -12,7 +12,7 @@ TEST | 29493
 DEVELOPMENT | 28932
 
 ## Statistical information regarding training set (PubMed_200k_RCT/train.txt) ##
-| Label | Count |
+| Label | # |
 |-------------|--------|
 | RESULTS     | 766271 |
 | METHODS     | 722586 |
