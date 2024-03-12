@@ -66,7 +66,7 @@ Total params: 38427045 (146.59 MB) <br>
 Trainable params: 38427045 (146.59 MB) <br>
 Non-trainable params: 0 (0.00 Byte) <br>
 
-Important notice: Since computation on my device took very long to train this base model, I took only 10% of the initial batch size.
+Important notice: Since eta on my device for uncut model was 10h+, I took only 10% of the initial batch size.
 
 ## Working Model ##
 
