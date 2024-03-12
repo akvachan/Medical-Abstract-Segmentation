@@ -65,7 +65,7 @@ Evaluation:
 | Precision   | 87%        |
 | Recall      | 87%        |
 
-Model is saved unser medsegnet_model.hash5. <br>
+Model is saved under medsegnet_model.hash5. <br>
 Weights for this model are saved under medsegnet_weights.h5.
 
 ## Beyond classification
