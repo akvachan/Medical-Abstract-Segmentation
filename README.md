@@ -28,7 +28,7 @@ As we can see most common label is RESULTS with 766271 appearances.
 |-------------|------------------------------------|
 | Words                                 | 58015688 |
 | Stopwords                             | 15986680 |
-| Unique words (not lowercased)         | 472016   |
+| Unique words (n. lowercased, incl. stopwords)         | 472016   |
 | Sentences                             | 2211861  |
 | Min abstract length (sentences)       | 3        |
 | Max abstract length (sentences)       | 51       |
