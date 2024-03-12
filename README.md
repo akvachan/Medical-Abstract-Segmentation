@@ -20,7 +20,7 @@ Split:
 | BACKGROUND  | 196689 |
 | OBJECTIVE   | 186601 |
 
-As we can see most common label is RESULTS with 766271 appearances
+As we can see most common label is RESULTS with 766271 appearances.
 
 
 |             |                                    |
@@ -39,12 +39,12 @@ As we can see most common label is RESULTS with 766271 appearances
 
 Smallest abstract has 3 sentences, biggest has 51. Average sentence length is between 26-27 words. Around 26.6% of total words are stopwords and around 0.8% are unique words. Smallest sentence contains just a single word, biggest sentence contains 338 words.
 
-Full sentence length distribution can be found in sentence_length_distribution.txt
+Full sentence length distribution can be found in sentence_length_distribution.txt.
 
 ## Baseline Models ##
 
 1. Most frequent label:<br>
-Model that classifies each sentence as RESULTS has apporox. 35% accuracy. This model was beaten by Multinomial Naïve Bayes Model
+Model that classifies each sentence as RESULTS has apporox. 35% accuracy. This model was beaten by Multinomial Naïve Bayes Model.
 
 2. Multinomial Naïve Bayes Classifier:<br>
 Predicts class of the sentence depending on the distribution of words in each class and probability of the classes. No stopwords were removed, tf-idf vectorization with unigram (class-word) frequency count was used. Evaluation yielded 76.5% accuracy and f1-score, precision and recall. Since dataset is balanced multi-class, it is possible for those metrics to be identical.
@@ -65,8 +65,8 @@ Evaluation:
 | Precision   | 87%        |
 | Recall      | 87%        |
 
-Model is saved unser medsegnet_model.hash5
-Weights for this model are saved under medsegnet_weights.h5
+Model is saved unser medsegnet_model.hash5 <br>.
+Weights for this model are saved under medsegnet_weights.h5.
 
 ## Beyond classification
 pass
