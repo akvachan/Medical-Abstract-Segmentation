@@ -62,11 +62,11 @@ First each sentence is tokenized and standardized to have length of 64 tokens. T
 | dense (Dense)               (None, 64) |               2112 |                                                    
 | dense_1 (Dense)  |           (None, 5)  |               325 |        
 
-Total params: 38427045 (146.59 MB)
-Trainable params: 38427045 (146.59 MB)
-Non-trainable params: 0 (0.00 Byte)
+Total params: 38427045 (146.59 MB) <br>
+Trainable params: 38427045 (146.59 MB) <br>
+Non-trainable params: 0 (0.00 Byte) <br>
 
-Important notice: Since computation on my device took very long to train this base model, I took only 10% of the initial batch size
+Important notice: Since computation on my device took very long to train this base model, I took only 10% of the initial batch size.
 
 ## Working Model ##
 
