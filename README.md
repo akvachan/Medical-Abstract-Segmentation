@@ -23,7 +23,7 @@ Split:
 As we can see most common label is RESULTS with 766271 appearances
 
 
-|             | #                                  |
+|             |                                    |
 |-------------|------------------------------------|
 | Words                                 | 58015688 |
 | Stopwords                             | 15986680 |
@@ -43,11 +43,11 @@ Full sentence length distribution can be found in sentence_length_distribution.t
 
 ## Baseline Models ##
 
-1. Most frequent label:
+1. Most frequent label:<br>
 Model that classifies each sentence as RESULTS has apporox. 35% accuracy. This model was beaten by Multinomial Naïve Bayes Model
 
-2. Multinomial Naïve Bayes Classifier
-Multinomial Naïve Bayes Classifier predicts class of the sentence depending on the distribution of words in each class and probability of the classes. No stopwords were removed, tf-idf vectorization with unigram (class-word) frequency count was used. Evaluation yielded 76.5% accuracy and f1-score, precision and recall. Since dataset is balanced multi-class, it is possible for those metrics to be identical.
+2. Multinomial Naïve Bayes Classifier:<br>
+Predicts class of the sentence depending on the distribution of words in each class and probability of the classes. No stopwords were removed, tf-idf vectorization with unigram (class-word) frequency count was used. Evaluation yielded 76.5% accuracy and f1-score, precision and recall. Since dataset is balanced multi-class, it is possible for those metrics to be identical.
 
 3. Embedding with Conv1D
 pass
