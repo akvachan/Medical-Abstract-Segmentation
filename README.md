@@ -66,9 +66,11 @@ Total params: 38427045 (146.59 MB) <br>
 Trainable params: 38427045 (146.59 MB) <br>
 Non-trainable params: 0 (0.00 Byte) <br>
 
-Important notice: Since eta on my device for uncut model was 10h+, I took only 10% of the initial batch size.
+Important notice: Since eta on my device for uncut model was 10h+, I took only 10% of the initial batch size. Reason for such long training times is the embedding layer, that has 38M+ parameters. This inefficiency source will be eliminated in the working model by creating pre-trained embeddings on the training sentences and saving them on the disk.
 
 ## Working Model ##
+pass
+
 
 Architecture:
 pass
