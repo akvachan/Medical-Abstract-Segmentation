@@ -62,15 +62,15 @@ As we can see most common label is RESULTS with 766271 appearances.
 | Min abstract length (sentences)       | 3        |
 | Max abstract length (sentences)       | 51       |
 | Mean sentence length (words)          | 26.229   |
+| Mean sentence length (chars)          | 150.522   |
 | Median sentence length (words)        | 23.0     |
 | Skewness sentence length distribution | 1.971    |
 | Min sentence length (words)           | 1        |
 | Max sentence length (words)           | 338      |
 | 95% sentences are _ or longer (words) | 54       |
+| 95% sentences are _ or longer (chars) | 291       |
 
 Smallest abstract has 3 sentences, biggest has 51. Average sentence length is between 26-27 words. Around 26.6% of total words are stopwords and around 0.8% are unique words (not lowercased). Smallest sentence contains just a single word, biggest sentence contains 338 words.
-
-Full sentence length distribution can be found in sentence_length_distribution.txt.
 
 ## Baseline Models ##
 
@@ -78,14 +78,14 @@ Full sentence length distribution can be found in sentence_length_distribution.t
 Model that classifies each sentence as RESULTS has apporox. 35% accuracy. This model was beaten by Multinomial Naïve Bayes Model.
 
 2. Multinomial Naïve Bayes Classifier:<br>
-Predicts class of the sentence depending on the distribution of words in each class and probability of the classes. No stopwords were removed, words were lowercased, tf-idf vectorization with unigram (class-word) frequency count was used. Evaluation yielded 76.5% validation accuracy, F1-score, precision and recall. Since dataset is balanced multi-class, it is possible for those metrics to be identical.
+Predicts class of the sentence depending on the distribution of words in each class and probability of the classes. No stopwords were removed, words were lowercased, tf-idf vectorization with unigram (class-word) frequency count was used. Evaluation yielded 76.5% validation accuracy and 75.4% weighted F1-score.
 
 3. Embedding with Conv1D:<br>
-First each sentence is tokenized and standardized to have length of 64 tokens. Then sentences in batches of 64 are passed to the Embedding layer that calculates embedding with dimensionality of 128 for each token. Those embedded sentences are then passed to a Text Covolutional layer that extracts common patterns and features, the outputs of Convolutional layer are then globally averaged. Last two layers is a DNN. Model is trained for 10 epochs. Final validation accuracy 85%, and final validation F1-score 80%.   
+First each sentence is tokenized and standardized to have length of 64 tokens. Then sentences in batches of 64 are passed to the Embedding layer that calculates embedding with dimensionality of 128 for each token. Those embedded sentences are then passed to a Text Covolutional layer that extracts common patterns and features, the outputs of Convolutional layer are then globally averaged. Last two layers is a DNN. Model is trained for 10 epochs. Final testing 85.5% accuracy, and 79.6% weighted F1-score.   
 
 Important notice: Since eta on my device for uncut model was 10h+, I took only 10% of the initial batch size. Reason for such long training times is the embedding layer, that has 38M+ parameters. This inefficiency source will be eliminated in the working model by creating pre-trained embeddings on the training sentences and saving them on the disk.
 
-## Working Model ##
+## Working Model - PoseidonLSTM ##
 pass
 
 
