@@ -12,7 +12,7 @@ Split:
 | TEST        | 29493      |
 | DEVELOPMENT | 28932      |
 
-Raw text files are parsed into dictionaries, that includes sentence number, label, text, and abstract length.<br>
+Raw text files are parsed into lists of dictionaries, that includes sentence number, label, text, and abstract length.<br>
 After pre-processing dataset looks like this: <br>
 |index|line\_number|target|text|total\_lines|
 |---|---|---|---|---|
