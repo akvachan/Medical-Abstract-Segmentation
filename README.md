@@ -84,7 +84,7 @@ Predicts class of the sentence depending on the distribution of words in each cl
 3. Embedding with Text Convolutions:<br>
 First, each sentence is tokenized and standardized to have length of 64 tokens. Then sentences in batches of 64 are passed to the Embedding layer that calculates embedding with dimensionality of 128 for each token. Those embedded sentences are then passed to a Text Covolutional layer that extracts common patterns and features, the outputs of Convolutional layer are then globally averaged. Last two layers is a DNN. Model is trained for 10 epochs. Final 85.5% testing accuracy, and 79.6% weighted F1-score.   
 
-Important notice: Since eta on my device for uncut model was 10h+, I took only 10% of the initial batch size. Reason for such long training times is the embedding layer, that has 38M+ parameters. This inefficiency source will be eliminated in the working model by creating pre-trained embeddings on the training sentences and saving them on the disk.
+Important notice: Since eta on my device for uncut model was 10h+, I took only 10% of the initial batch size. Reason for such long training times is the embedding layer, that has 38M+ parameters. This inefficiency source will be eliminated in the working model by using pre-trained embeddings.
 
 ## Working Model - PoseidonLSTM ##
 pass
