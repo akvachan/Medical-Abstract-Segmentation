@@ -12,7 +12,7 @@ Split:
 | TEST        | 29493      |
 | DEVELOPMENT | 28932      |
 
-After pre-processing dataset lookes like this: <br>
+After pre-processing dataset looks like this: <br>
 |index|line\_number|target|text|total\_lines|
 |---|---|---|---|---|
 |0|0|BACKGROUND|The emergence of HIV as a chronic condition means that people living with HIV are required to take more responsibility for the self-management of their condition , including making physical , emotional and social adjustments \.|11|
