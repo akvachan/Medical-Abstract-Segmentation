@@ -3,9 +3,15 @@ Segmentation for Medical Texts
 
 ## Goal ##
 Goal is to take raw abstract and segment it into 5 parts: Background, Methods, Objective, Conclusions and Results.<br>
-E.g.:<br>
-Input: SentenceA. SentenceB. SentenceC. SentenceD. SentenceF.
-Output: Background: SentenceA. SentenceC, Methods: SentenceB, Results: SentenceF, Conclusions: SentenceD.
+<br>
+
+Input: <br>
+  SentenceA. SentenceB. SentenceC. SentenceD. SentenceF.
+Output: <br>
+  Background: SentenceA. SentenceC, <br>
+  Methods: SentenceB, <br>
+  Results: SentenceF, <br>
+  Conclusions: SentenceD.
 
 
 ## Dataset ##
