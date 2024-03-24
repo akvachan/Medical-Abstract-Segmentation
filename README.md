@@ -104,7 +104,6 @@ Weights for this model are saved under medsegnet_weights.h5.
 
 ## Beyond classification - Flask App ##
 Check out my repository MAS-Flask for full productional version of Medical Abstract Segmentation App
-
 <br>
 <a href="https://ibb.co/RPRTJC6"><img src="https://i.ibb.co/y5HFx8k/Screenshot-at-Mar-24-22-53-15.png" alt="Screenshot-at-Mar-24-22-53-15" border="0"></a>
 
