@@ -1,5 +1,5 @@
 # Medical-Abstract-Segmentation
-Abstract Segmentation and Compression for Medical Texts
+Segmentation for Medical Texts
 
 ## Dataset ##
 Name: PubMed_200k_RCT (_/train.txt, _/test.txt, _/train.txt) <br>
