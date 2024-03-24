@@ -90,6 +90,7 @@ Important notice: Since eta on my device for uncut model was 10h+, I took only 1
 Multimodal model that uses both word and character embeddings with positional encodings.
 
 Architecture:
+<br>
 <a href="https://ibb.co/xD0XtYB"><img src="https://i.ibb.co/ZVPGpSF/download.png" alt="download" border="0"></a>
 
 Evaluation:
