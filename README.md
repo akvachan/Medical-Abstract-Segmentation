@@ -87,24 +87,21 @@ First, each sentence is tokenized and standardized to have length of 64 tokens. 
 Important notice: Since eta on my device for uncut model was 10h+, I took only 10% of the initial batch size. Reason for such long training times is the embedding layer, that has 38M+ parameters. This inefficiency source will be eliminated in the working model by using pre-trained embeddings.
 
 ## Working Model - PoseidonLSTM ##
-pass
-
+Multimodal model that uses both word and character embeddings with positional encodings.
 
 Architecture:
-pass
+<a href="https://ibb.co/xD0XtYB"><img src="https://i.ibb.co/ZVPGpSF/download.png" alt="download" border="0"></a>
 
 Evaluation:
 | Metric      |            |
 |-------------|------------|
-| Accuracy    | 90%        |
-| F1          | 87%        |
-| Precision   | 87%        |
-| Recall      | 87%        |
+| Accuracy    | 83%        |
+| F1          | 77%        |
 
 Model is saved under medsegnet_model.hash5. <br>
 Weights for this model are saved under medsegnet_weights.h5.
 
-## Beyond classification - FastAPI Microservice ##
-pass
+## Beyond classification - Flask App ##
+Check out my repository MAS-Flask for full productional version of Medical Abstract Segmentation App
 
 
