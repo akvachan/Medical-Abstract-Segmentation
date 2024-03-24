@@ -6,12 +6,12 @@ Goal is to take raw abstract and segment it into 5 parts: Background, Methods, O
 <br>
 
 Input: <br>
-  SentenceA. SentenceB. SentenceC. SentenceD. SentenceF.
+  &emsp; SentenceA. SentenceB. SentenceC. SentenceD. SentenceF.
 Output: <br>
-  Background: SentenceA. SentenceC, <br>
-  Methods: SentenceB, <br>
-  Results: SentenceF, <br>
-  Conclusions: SentenceD.
+  &emsp; Background: SentenceA. SentenceC, <br>
+  &emsp; Methods: SentenceB, <br>
+  &emsp; Results: SentenceF, <br>
+  &emsp; Conclusions: SentenceD.
 
 
 ## Dataset ##
