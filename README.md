@@ -112,7 +112,7 @@ Evaluation:
 | Accuracy    | 83%        |
 | F1          | 77%        |
 
-Trained model in SavedModel format can be downloaded <a href="https://drive.usercontent.google.com/download?id=1PUVyn7eSzAmtMF36mNHRPRFA0JVgAWY2&export=download&authuser=0">Here</a>. <br>
+Trained model in SavedModel format can be downloaded <a href="https://drive.usercontent.google.com/download?id=1PUVyn7eSzAmtMF36mNHRPRFA0JVgAWY2&export=download&authuser=0">here</a>. <br>
 
 ## Beyond classification - Flask App ##
 Check out my repository MAS-Flask for full productional version of Medical Abstract Segmentation App
