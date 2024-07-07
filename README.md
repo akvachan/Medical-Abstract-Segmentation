@@ -95,7 +95,7 @@ Model that classifies each sentence as RESULTS has apporox. 35% accuracy. This m
 Predicts class of the sentence depending on the distribution of words in each class and probability of the classes. No stopwords were removed, words were lowercased, tf-idf vectorization with unigram (class-word) frequency count was used. Evaluation yielded 76.5% validation accuracy and 75.4% weighted F1-score. This model was beaten by Embedding with Text Convolutions Model.
 
 3. Embedding with Text Convolutions:<br>
-First, each sentence is tokenized and standardized to have length of 64 tokens. Then sentences in batches of 64 are passed to the Embedding layer that calculates embedding with dimensionality of 128 for each token. Those embedded sentences are then passed to a Text Covolutional layer that extracts common patterns and features, the outputs of Convolutional layer are then globally averaged. Last two layers is a DNN. Model is trained for 10 epochs. Final 85.5% testing accuracy, and 79.6% weighted F1-score.   
+First, each sentence is tokenized and standardized to have length of 64 tokens. Then sentences in batches of 64 are passed to the Embedding layer that calculates embedding with dimensionality of 128 for each token. Those embedded sentences are then passed to a Text Covolutional layer that extracts common patterns and features, the outputs of Convolutional layer are then globally averaged. Last two layers is a DNN. Model is trained for 10 epochs. Final 85.5% validation accuracy, and 79.6% validation weighted F1-score.   
 
 Important notice: Since eta on my device for uncut model was 10h+, I took only 10% of the initial batch size. Reason for such long training times is the embedding layer, that has 38M+ parameters. This inefficiency source will be eliminated in the working model by using pre-trained embeddings.
 
@@ -106,11 +106,11 @@ Architecture:
 <br>
 <a href="https://ibb.co/xD0XtYB"><img src="https://i.ibb.co/ZVPGpSF/download.png" alt="download" border="0"></a>
 
-Evaluation:
+Evaluation (Testing):
 | Metric      |            |
 |-------------|------------|
-| Accuracy    | 83%        |
-| F1          | 77%        |
+| Accuracy    | 80%        |
+| F1          | 57%        |
 
 Trained model in SavedModel format can be downloaded <a href="https://drive.usercontent.google.com/download?id=1PUVyn7eSzAmtMF36mNHRPRFA0JVgAWY2&export=download&authuser=0">here</a>. <br>
 
