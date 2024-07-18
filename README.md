@@ -118,6 +118,7 @@ Trained model in SavedModel format can be downloaded <a href="https://drive.user
 ## Beyond classification - Flask App ##
 
 <a href="https://github.com/akvachan/Flask-MAS"> GitHub Repo </a>
+
 <br>
 <a href="https://ibb.co/RPRTJC6"><img src="https://i.ibb.co/y5HFx8k/Screenshot-at-Mar-24-22-53-15.png" alt="Screenshot-at-Mar-24-22-53-15" border="0"></a>
 
