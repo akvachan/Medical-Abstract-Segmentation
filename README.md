@@ -7,6 +7,7 @@ Goal is to take raw abstract and segment it into 5 parts: Background, Methods, O
 
 Input: <br>
   &emsp; SentenceA. SentenceB. SentenceC. SentenceD. SentenceF. <br>
+  
 Output: <br>
   &emsp; Background: SentenceA. SentenceC, <br>
   &emsp; Methods: SentenceB, <br>
@@ -114,8 +115,7 @@ Evaluation (Testing):
 
 Trained model in SavedModel format can be downloaded <a href="https://drive.usercontent.google.com/download?id=1PUVyn7eSzAmtMF36mNHRPRFA0JVgAWY2&export=download&authuser=0">here</a>. <br>
 
-## Beyond classification - Flask App ##
-Check out my repository MAS-Flask for full productional version of Medical Abstract Segmentation App
+## Beyond classification - Flask App - Work in Progress##
 <br>
 <a href="https://ibb.co/RPRTJC6"><img src="https://i.ibb.co/y5HFx8k/Screenshot-at-Mar-24-22-53-15.png" alt="Screenshot-at-Mar-24-22-53-15" border="0"></a>
 
