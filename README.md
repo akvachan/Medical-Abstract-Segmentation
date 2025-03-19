@@ -1,6 +1,8 @@
 # Medical-Abstract-Segmentation
 Segmentation for Medical Texts
 
+<a href="https://ibb.co/RPRTJC6"><img src="https://i.ibb.co/y5HFx8k/Screenshot-at-Mar-24-22-53-15.png" alt="Screenshot-at-Mar-24-22-53-15" border="0"></a>
+
 ## Goal ##
 Goal is to take raw abstract and segment it into 5 parts: Background, Methods, Objective, Conclusions and Results.<br>
 <br>
