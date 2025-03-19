@@ -117,9 +117,6 @@ Trained model in SavedModel format can be downloaded <a href="https://drive.user
 
 ## Beyond classification - Flask App ##
 
-Use this link to play around with the segmenter: https://flask-mas-production.up.railway.app/ <br>
-**Be aware that some slowdown (5-10s after submission) is expected since the model was trained on a GPU, but deployed on a GPU-less environment due to the constrained resources available.**
-
 <a href="https://github.com/akvachan/Flask-MAS"> GitHub Repo </a>
 
 <br>
